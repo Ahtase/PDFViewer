@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Uygulama simgesi kaynağı. Değiştirince: npm run icon -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C7DFF"/>
+      <stop offset="1" stop-color="#2346C8"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF1F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0B1B5C" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- macOS ızgarası: 824×824 gövde, 100 px kenar boşluğu -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+
+  <!-- Sayfa -->
+  <g filter="url(#shadow)">
+    <path d="M300 230 H600 L724 354 V794 a26 26 0 0 1 -26 26 H300 a26 26 0 0 1 -26 -26 V256 a26 26 0 0 1 26 -26 Z" fill="url(#paper)"/>
+    <path d="M600 230 V328 a26 26 0 0 0 26 26 H724 Z" fill="#C9D3EC"/>
+  </g>
+
+  <!-- Metin satırları -->
+  <g fill="#B7C1DA">
+    <rect x="336" y="402" width="300" height="26" rx="13"/>
+    <rect x="336" y="562" width="330" height="26" rx="13"/>
+    <rect x="336" y="642" width="250" height="26" rx="13"/>
+    <rect x="336" y="722" width="190" height="26" rx="13"/>
+  </g>
+  <!-- Vurgulanmış satır -->
+  <rect x="318" y="466" width="368" height="62" rx="12" fill="#FFD43B"/>
+  <rect x="336" y="484" width="320" height="26" rx="13" fill="#8A6A00" opacity="0.55"/>
+
+  <!-- Kalem -->
+  <g transform="rotate(40 704 640)">
+    <rect x="672" y="420" width="64" height="300" rx="14" fill="#FF8A3D"/>
+    <rect x="672" y="420" width="64" height="58" rx="14" fill="#E2E6F0"/>
+    <rect x="672" y="462" width="64" height="16" fill="#AEB6C8"/>
+    <path d="M672 708 H736 L704 800 Z" fill="#F6D7B0"/>
+    <path d="M693 770 H715 L704 800 Z" fill="#2A2F3A"/>
+  </g>
+</svg>
